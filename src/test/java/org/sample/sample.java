@@ -10,5 +10,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features= {"src\\test\\resources"},glue= {"org.step"})
 
 public class sample {
-
+public static void main(String[] args) {
+	System.out.println("maniplayboy");
+}
 }
